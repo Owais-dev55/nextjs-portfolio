@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.icons {
+    @apply opacity-50 text-3xl hover:opacity-100 hover:scale-125 transition transform duration-300;
+  }
+  
+  @media (max-width: 640px) {
+    .text-4xl {
+      font-size: 2.5rem; 
+    }
+    .text-3xl {
+      font-size: 1.875rem; 
+    }
+  }

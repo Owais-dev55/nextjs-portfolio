@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.img {
+    background-image: url(public/pexels-junior-teixeira-1064069-2047905.jpg);
+    background-size: cover; 
+    background-position: center;
+}
+.earth {
+    background-image: url(public/pexels-pixabay-87651.jpg);
+}
+
+html {
+    scroll-behavior: smooth;
+  }

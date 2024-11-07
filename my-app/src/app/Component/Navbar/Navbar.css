@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.nav-link {
+    @apply hover:underline hover:underline-offset-8 hover:decoration-teal-600 hover:scale-110 duration-100;
+}
+
+.active {
+    @apply underline underline-offset-8 decoration-teal-600 scale-125 duration-100;
+}
+
+
+.mobile-menu {
+    @apply flex flex-col items-center mt-4 space-y-4 p-4;
+}
+
+.mobile-menu.hidden {
+    display: none;
+}
+
+
+.mobile-menu.open {
+    @apply block;
+}
+
+
+@media (min-width: 768px) {
+    .menu-button {
+        display: none;
+    }
+}
