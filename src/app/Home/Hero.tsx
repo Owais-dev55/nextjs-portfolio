@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="relative img flex flex-col lg:flex-row items-center justify-center min-h-screen w-full bg-cover bg-center">
         <div className="m-8 w-full text-white lg:w-1/2 text-center flex flex-col items-center justify-center">
           <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold mb-4 tracking-wide">
-            Hi! I'm Muhammad <span className="text-teal-600">Owais</span>{" "}
+            Hi! I&apos;m Muhammad <span className="text-teal-600">Owais</span>{" "}
             Khiljee
           </h1>
           <h2 className="text-3xl font-semibold uppercase mt-8">
@@ -42,7 +42,7 @@ const Hero = () => {
             <Link href="mailto:OwaisKhiljee6556@gmail.com" target="_blank">
               <i className="icons fa-solid fa-envelope"></i>
             </Link>
-            <Link href="" target="_blank">
+            <Link href="https://x.com/ItS_sAm5?t=hMabxl3gyWLtJ7F8wgWmYA&s=09" target="_blank">
               <i className="icons fa-brands fa-twitter"></i>
             </Link>
             <Link href="https://wa.me/923332386556" target="_blank">

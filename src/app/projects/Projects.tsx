@@ -11,7 +11,7 @@ const Projects = () => {
         <p className="mt-4 text-lg md:text-2xl text-white opacity-80  p-4  max-w-3xl mx-auto lg:mx-0 leading-relaxed text-justify">
           Projects are crucial for developers as they provide hands-on
           experience, allowing them to apply theoretical knowledge and improve
-          problem-solving skills. They demonstrate a developer's abilities to
+          problem-solving skills. They demonstrate a developer&apos;s abilities to
           potential employers, showcasing proficiency with technologies and
           frameworks. Additionally, projects enhance collaboration and
           communication skills, essential in team environments.
