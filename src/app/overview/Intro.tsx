@@ -1,10 +1,10 @@
 import React from "react";
 import Card from "./Card";
 import Spline from "@splinetool/react-spline/next";
-import image1 from "../public/growth-4777468_1280.jpg";
-import image2 from "../public/computer-8779036_1280.jpg";
-import image3 from "../public/icon-1379228_1280.png";
-import image4 from "../public/web-design-2038872_1280.jpg";
+import image1 from "../../../Public/growth-4777468_1280.jpg";
+import image2 from "../../../public/computer-8779036_1280.jpg";
+import image3 from "../../../public/icon-1379228_1280.png";
+import image4 from "../../../public/web-design-2038872_1280.jpg";
 
 const Intro = () => {
   return (
