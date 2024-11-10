@@ -2,6 +2,7 @@ import React from "react";
 import Card from "./Card";
 import image from "../../../Public/e-commerce website.png";
 import image2 from "../../../Public/weather app.png";
+
 const Projects = () => {
   return (
     <div>
