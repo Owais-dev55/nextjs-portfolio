@@ -1,10 +1,6 @@
 import React from "react";
 import Card from "./Card";
 import Spline from "@splinetool/react-spline/next";
-import image1 from "../../../Public/growth-4777468_1280.jpg";
-import image2 from "../../../public/computer-8779036_1280.jpg";
-import image3 from "../../../public/icon-1379228_1280.png";
-import image4 from "../../../public/web-design-2038872_1280.jpg";
 
 const Intro = () => {
   return (
@@ -41,10 +37,10 @@ const Intro = () => {
       </div>
 
       <div className="flex flex-wrap gap-4 justify-center">
-        <Card title1="Growth Leader" imageSrc={image1} />
-        <Card title1="Web Developer" imageSrc={image2} />
-        <Card title1="React" imageSrc={image3} />
-        <Card title1="UI/UX Designer" imageSrc={image4} />
+        <Card title1="Growth Leader" imageSrc={'/growth-4777468_1280.jpg'} />
+        <Card title1="Web Developer" imageSrc={"/computer-8779036_1280.jpg"} />
+        <Card title1="React" imageSrc={'/icon-1379228_1280.png'} />
+        <Card title1="UI/UX Designer" imageSrc={'/web-design-2038872_1280.jpg'} />
       </div>
     </div>
   );

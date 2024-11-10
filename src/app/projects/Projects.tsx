@@ -1,7 +1,5 @@
 import React from "react";
 import Card from "./Card";
-import image from "../../../Public/e-commerce website.png";
-import image2 from "../../../Public/weather app.png";
 
 const Projects = () => {
   return (
@@ -23,7 +21,7 @@ const Projects = () => {
             description="Discover a curated selection of high-quality products tailored to
             your needs, all at unbeatable prices. Shop with confidence and enjoy
             a seamless online shopping experience from the comfort of your home"
-            imgsrc={image}
+            imgsrc={'/e-commerce website.png'}
             url="https://github.com/Owais-dev55/E-commerce-website-React.TS"
           />
           <Card
@@ -31,7 +29,7 @@ const Projects = () => {
             description=" Stay informed with real-time weather updates and forecasts at your
     fingertips. Experience a user-friendly interface that delivers
     accurate and reliable weather information wherever you go."
-            imgsrc={image2}
+            imgsrc={'/weather app.png'}
             url="https://github.com/Owais-dev55/Weather-App-React.TS"
           />
         </div>

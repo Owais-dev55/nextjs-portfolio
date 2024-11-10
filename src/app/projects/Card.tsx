@@ -18,6 +18,8 @@ const Card = ({ title, description, imgsrc, url }: cardProp) => {
           alt="image"
           className="w-full h-44 object-cover opacity-90 transition-transform transform hover:scale-110"
           style={{ objectFit: 'cover' }}
+          width={100}
+          height={100}
         />
         <div className="absolute top-0 right-0  text-5xl focus:scale-105 z-10 cursor-pointer border-none">
           <Link target="_blank" href={url}>
