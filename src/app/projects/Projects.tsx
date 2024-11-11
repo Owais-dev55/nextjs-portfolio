@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "./Card";
-
+import image1 from '@/Public/e-commerce website.png'
+import image2 from '@/Public/weather app.png'
 const Projects = () => {
   return (
     <div>
@@ -21,7 +22,7 @@ const Projects = () => {
             description="Discover a curated selection of high-quality products tailored to
             your needs, all at unbeatable prices. Shop with confidence and enjoy
             a seamless online shopping experience from the comfort of your home"
-            imgsrc={'/e-commerce website.png'}
+            imgsrc={image1}
             url="https://github.com/Owais-dev55/E-commerce-website-React.TS"
           />
           <Card
@@ -29,13 +30,13 @@ const Projects = () => {
             description=" Stay informed with real-time weather updates and forecasts at your
     fingertips. Experience a user-friendly interface that delivers
     accurate and reliable weather information wherever you go."
-            imgsrc={'/weather app.png'}
+            imgsrc={image2}
             url="https://github.com/Owais-dev55/Weather-App-React.TS"
           />
         </div>
       </div>
     </div>
   );
-};
+}
 
 export default Projects;
