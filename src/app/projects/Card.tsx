@@ -13,7 +13,14 @@ const Card = ({ title, description, imgsrc, url }: cardProp) => {
   return (
     <div className="flex justify-evenly flex-wrap gap-8 mt-12">
       <div className="relative h-[420px] w-80 border-2 rounded-lg  overflow-hidden transform transition duration-300 hover:scale-105 bg-gray-700 hover:shadow-2xl">
-      <Image src={imgsrc} alt="image" fill style={{ objectFit: 'cover' }} />
+        <Image
+          src={imgsrc}
+          alt="image"
+          className="w-full h-44 object-cover opacity-90 transition-transform transform hover:scale-110"
+          style={{ objectFit: 'cover' }}
+          width={100}
+          height={100}
+        />
         <div className="absolute top-0 right-0  text-5xl focus:scale-105 z-10 cursor-pointer border-none">
           <Link target="_blank" href={url}>
             <i className="fa-brands  fa-square-github"></i>
