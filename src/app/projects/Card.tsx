@@ -7,9 +7,10 @@ type cardProp = {
   description: string;
   imgsrc: string | StaticImageData;
   url: string;
+  proUrl:string
 };
 
-const Card = ({ title, description, imgsrc, url }: cardProp) => {
+const Card = ({ title, description, imgsrc, url , proUrl }: cardProp) => {
   return (
     <div className="flex justify-evenly flex-wrap gap-8 mt-12">
       <div className="relative h-[420px] w-80 border-2 rounded-lg  overflow-hidden transform transition duration-300 hover:scale-105 bg-gray-700 hover:shadow-2xl">
@@ -32,9 +33,9 @@ const Card = ({ title, description, imgsrc, url }: cardProp) => {
           <p className="text-sm mt-2 leading-snug text-white opacity-60">
             {description}
           </p>
-          <button className="mt-2 px-4 py-2 bg-purple-700 hover:bg-purple-600 text-sm rounded-full transition transform hover:scale-105">
+         <Link href={proUrl} target="_blank"> <button className="mt-2 px-4 py-2 bg-purple-700 hover:bg-purple-600 text-sm rounded-full transition transform hover:scale-105">
             View Project
-          </button>
+          </button></Link>
           <div className="mt-3 flex flex-wrap gap-2">
             <span className="text-green-400 bg-green-900 bg-opacity-25 px-2 py-1 rounded-full text-[15px] font-semibold">
               #Typescript

@@ -24,6 +24,7 @@ const Projects = () => {
             a seamless online shopping experience from the comfort of your home"
             imgsrc={image1}
             url="https://github.com/Owais-dev55/E-commerce-website-React.TS"
+            proUrl="https://vogueaura.vercel.app/"
           />
           <Card
             title="Weather-App"
@@ -32,6 +33,7 @@ const Projects = () => {
     accurate and reliable weather information wherever you go."
             imgsrc={image2}
             url="https://github.com/Owais-dev55/Weather-App-React.TS"
+            proUrl="https://weather-app-react-ts-eight.vercel.app/"
           />
         </div>
       </div>
