@@ -1,7 +1,10 @@
-import React from "react";
-import Spline from "@splinetool/react-spline/next";
+"use client";
+import React, { Suspense } from "react";
 import "./contact.css";
+
 const Contact = () => {
+  const LazySpline = React.lazy(() => import("@splinetool/react-spline/next"));
+
   return (
     <footer className=" text-gray-100">
       <div className="flex flex-col md:flex-row w-full h-screen">
@@ -31,7 +34,9 @@ const Contact = () => {
           </form>
         </div>
         <div className=" w-full md:w-1/2 earth bg-cover relative">
-          <Spline scene="https://prod.spline.design/aw30GchNNCoUblnw/scene.splinecode" />
+          <Suspense fallback={<div className="loading">Loading...</div>}>
+            <LazySpline scene="https://prod.spline.design/aw30GchNNCoUblnw/scene.splinecode" />
+          </Suspense>
           <div className="absolute bottom-0 right-0 w-40 h-12 bg-black border-none"></div>
         </div>
       </div>
