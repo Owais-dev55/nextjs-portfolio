@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="relative img flex flex-col lg:flex-row items-center justify-center min-h-screen w-full bg-cover bg-center">
         <div className="m-8 w-full text-white lg:w-1/2 text-center flex flex-col items-center justify-center">
           <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold mb-4 tracking-wide">
-            Hi! I&apos;m Muhammad <span className="text-teal-600">Owais</span>{" "}
+            Hi! I&apos;m Muhammad <span className="text-teal-600 mr-2">Owais</span>
             Khiljee
           </h1>
           <h2 className="text-3xl font-semibold uppercase mt-8">

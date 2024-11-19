@@ -19,13 +19,14 @@ const Navbar = () => {
   return (
     <nav className="text-white z-20 fixed top-0 w-full">
   
-      <div className="container mx-auto px-6 py-4 flex justify-between items-center">
-        <a
-          href="/"
-          className="text-3xl font-bold text-transparent bg-clip-text bg-white hover:scale-105 transition-transform"
-        >
-          Owais.
-        </a>
+  <div className="container mx-auto px-6 py-4 flex justify-between items-center">
+  <Link
+    href="/"
+    className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-200 via-pink-500 to-purple-600 animate-gradient-hover hover:scale-105 transition-transform duration-500 hover:text-white shadow-lg"
+  >
+    Owais.
+  </Link>
+
 
   
         <div className="hidden md:flex space-x-8 text-lg font-medium">

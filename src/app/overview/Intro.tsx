@@ -1,11 +1,9 @@
-import React, { Suspense } from "react";
 import Card from "./Card";
 import Image1 from "@/Public/growth-4777468_1280.jpg";
 import Image2 from "@/Public/computer-8779036_1280.jpg";
 import Image3 from "@/Public/icon-1379228_1280.png";
 import Image4 from "@/Public/web-design-2038872_1280.jpg";
-
-const LazySpline = React.lazy(() => import("@splinetool/react-spline/next"));
+import Model from "../Component/3DModel/Model";
 
 const Intro = () => {
   return (
@@ -34,14 +32,7 @@ const Intro = () => {
             continuous learning and building impactful, user-centered solutions.
           </p>
         </div>
-
-        <div className="w-full lg:w-[850px] flex justify-center lg:justify-end relative h-[500px] sm:h-[600px] lg:h-[800px]">
-          {/* Wrap the Spline component with Suspense for lazy loading */}
-          <Suspense fallback={<div className="loading">Loading...</div>}>
-            <LazySpline scene="https://prod.spline.design/sgW3QowpCJA-JDDI/scene.splinecode" />
-          </Suspense>
-          <div className="absolute bottom-0 right-0 w-40 h-12 bg-black border-none hidden lg:block"></div>
-        </div>
+        <Model scene="https://prod.spline.design/sgW3QowpCJA-JDDI/scene.splinecode" />
       </div>
 
       <div className="flex flex-wrap gap-4 justify-center">
