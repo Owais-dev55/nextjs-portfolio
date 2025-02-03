@@ -8,9 +8,12 @@ type cardProp = {
   imgsrc: string | StaticImageData;
   url: string;
   proUrl:string
+  bread1:string
+  bread2:string
+  bread3:string
 };
 
-const Card = ({ title, description, imgsrc, url , proUrl }: cardProp) => {
+const Card = ({ title, description, imgsrc, url , proUrl , bread1 , bread2 , bread3 }: cardProp) => {
   return (
     <div className="flex justify-evenly flex-wrap gap-8 mt-12">
       <div className="relative h-[420px] w-80 border-2 rounded-lg  overflow-hidden transform transition duration-300 hover:scale-105 bg-gray-700 hover:shadow-2xl">
@@ -38,13 +41,13 @@ const Card = ({ title, description, imgsrc, url , proUrl }: cardProp) => {
           </button></Link>
           <div className="mt-3 flex flex-wrap gap-2">
             <span className="text-green-400 bg-green-900 bg-opacity-25 px-2 py-1 rounded-full text-[15px] font-semibold">
-              #Typescript
+              #{bread1}
             </span>
             <span className="text-purple-400 bg-purple-900 bg-opacity-25 px-2 py-1 rounded-full text-[15px] font-semibold">
-              #React
+              #{bread2}
             </span>
             <span className="text-blue-400 bg-blue-900 bg-opacity-25 px-2 py-1 rounded-full text-[15px] font-semibold">
-              #Bootstrap
+              #{bread3}
             </span>
           </div>
         </div>

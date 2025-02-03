@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./Card";
-import image1 from '@/Public/e-commerce website.png'
+import image1 from '@/Public/pic.png'
 import image2 from '@/Public/weather app.png'
 const Projects = () => {
   return (
@@ -19,12 +19,13 @@ const Projects = () => {
         <div className="flex flex-wrap gap-16 justify-center space-x-4">
           <Card
             title="E-commerce website"
-            description="Discover a curated selection of high-quality products tailored to
-            your needs, all at unbeatable prices. Shop with confidence and enjoy
-            a seamless online shopping experience from the comfort of your home"
+            description="E-Commerce Website A responsive online store built with Next.js, and Sanity, featuring dynamic product listings, search, authentication, and Stripe payments for a seamless shopping experience."
             imgsrc={image1}
-            url="https://github.com/Owais-dev55/E-commerce-website-React.TS"
-            proUrl="https://vogueaura.vercel.app/"
+            url="https://github.com/Owais-dev55/nextjs-e-commerce"
+            proUrl="https://nextjs-vogueaura.vercel.app/"
+            bread1="Nextjs"
+            bread2="Typescript"
+            bread3="Sanity"
           />
           <Card
             title="Weather-App"
@@ -34,6 +35,9 @@ const Projects = () => {
             imgsrc={image2}
             url="https://github.com/Owais-dev55/Weather-App-React.TS"
             proUrl="https://weather-app-react-ts-eight.vercel.app/"
+            bread1="React"
+            bread2="Typescript"
+            bread3="Tailwind"
           />
         </div>
       </div>
