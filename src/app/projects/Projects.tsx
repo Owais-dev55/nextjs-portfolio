@@ -1,11 +1,11 @@
 import React from "react";
 import Card from "./Card";
-import image1 from '@/Public/pic.png'
+import image1 from '@/Public/updated.png'
 import image2 from '@/Public/weather app.png'
 const Projects = () => {
   return (
     <div>
-      <div className=" h-full">
+      <div className=" h-full p-4 sm:p-6 lg:p-12">
         <h1 className="text-3xl text-white">My work</h1>
         <h1 className="text-teal-600 text-7xl">Projects.</h1>
         <p className="mt-4 text-lg md:text-2xl text-white opacity-80  p-4  max-w-3xl mx-auto lg:mx-0 leading-relaxed text-justify">
